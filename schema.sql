@@ -56,7 +56,7 @@ CREATE TABLE job_openings (
     title TEXT NOT NULL,
     apply_url TEXT NOT NULL UNIQUE,
     source_site TEXT NOT NULL CHECK (source_site IN
-        ('naukri','indeed','google_jobs','glassdoor','manual')),
+        ('naukri','indeed','google_jobs','glassdoor','zip_recruiter','manual')),
     city TEXT,
     resume_id INTEGER,
     application_status TEXT NOT NULL DEFAULT 'not_applied' CHECK (application_status IN
