@@ -14,8 +14,8 @@ CREATE TABLE companies (
     website TEXT,
     tech_stack TEXT,                         -- nullable, comma-separated
     has_open_posting BOOLEAN DEFAULT 0,
-    status TEXT NOT NULL DEFAULT 'not_contacted' CHECK (status IN
-        ('not_contacted','contacted','replied','interviewing','dead')),
+    source TEXT NOT NULL CHECK (source IN 
+    ('dpiit','nasscom','github_org','stpi','cutshort','jobspy','manual')),
     notes TEXT,
     created_at TEXT DEFAULT (datetime('now')),
     updated_at TEXT DEFAULT (datetime('now')),
