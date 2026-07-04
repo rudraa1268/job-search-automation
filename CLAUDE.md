@@ -43,3 +43,11 @@ Built across 2 old laptops (Linux + Windows) + n8n orchestration.
 ## Log (newest first)
 - [2026-07-04] Job Opening Agent complete. Sites: Indeed only (Naukri=406 recaptcha, Glassdoor=broken API, ZipRecruiter=403 bot-block even with delays). 259+ jobs inserted for Bangalore + remote, 22 role variants, 24hr freshness.
 - [2026-07-03] Repo initialized, schema.sql created and verified (6 tables), venv set up (Python 3.14, numpy/pandas/jobspy version overrides needed for 3.14 compatibility).
+- Company Discovery Agent: skeleton built (agents/company_discovery_agent.py).
+  GitHub org search implemented and tested. DPIIT, NASSCOM, STPI, Cutshort
+  scrapers still TODO (require Playwright). Does not write to SQLite directly —
+  posts to n8n webhook (N8N_WEBHOOK_URL in .env), n8n is single writer to companies.db.
+  schema.sql source enum updated to include 'cutshort'.
+  - n8n webhook setup and end-to-end testing of Company Discovery Agent deliberately
+  deferred — will be done directly on the Linux laptop once n8n is installed there,
+  since that's where companies.db actually lives.
