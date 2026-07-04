@@ -31,3 +31,15 @@ Built across 2 old laptops (Linux + Windows) + n8n orchestration.
 
 ## Log (newest first)
 - [DATE] Repo initialized, CLAUDE.md created
+## Status
+- DONE: Repo initialized, schema created
+- DONE: Agent 1 (Job Opening Agent) — Indeed only (Naukri/Glassdoor/ZipRecruiter blocked by bot detection)
+- TODO: Agent 2 (Company Discovery)
+- TODO: Agent 3 (Contact Enrichment) — blocked on Agent 2
+- TODO: Agent 4 (Email Outreach)
+- TODO: Agent 5 (CRM/Tracker)
+- TODO: Dashboard
+
+## Log (newest first)
+- [2026-07-04] Job Opening Agent complete. Sites: Indeed only (Naukri=406 recaptcha, Glassdoor=broken API, ZipRecruiter=403 bot-block even with delays). 259+ jobs inserted for Bangalore + remote, 22 role variants, 24hr freshness.
+- [2026-07-03] Repo initialized, schema.sql created and verified (6 tables), venv set up (Python 3.14, numpy/pandas/jobspy version overrides needed for 3.14 compatibility).
