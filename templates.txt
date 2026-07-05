@@ -1,0 +1,33 @@
+---TEMPLATE1---
+SUBJECT: Quick question about opportunities at {company}
+Hi {name},
+
+I came across {company} and wanted to reach out directly. I'm a full-stack developer with experience in Django, React, and PostgreSQL, and I'm actively looking for new opportunities.
+
+I've attached my resume — would love to know if there's a relevant role open, or if you could point me to the right person.
+
+Thanks for your time,
+Rudraa
+Portfolio: https://portfolio-eight-mu-58.vercel.app/
+---TEMPLATE2---
+SUBJECT: Full-stack developer interested in {company}
+Hi {name},
+
+I'll keep this short — I'm looking for full-stack roles and {company} stood out to me. My background is Django/DRF on the backend and React/Vite on the frontend, with PostgreSQL for data.
+
+Resume attached. Happy to share more if there's a fit.
+
+Best,
+Rudraa
+Portfolio: https://portfolio-eight-mu-58.vercel.app/
+---TEMPLATE3---
+SUBJECT: Interested in joining {company}
+Hi {name},
+
+Reaching out to see if {company} has any open full-stack positions. I work primarily with Django, React, and PostgreSQL, and I'm looking to move into a new role soon.
+
+I've attached my resume for reference — let me know if it's worth a conversation.
+
+Thanks,
+Rudraa
+Portfolio: https://portfolio-eight-mu-58.vercel.app/
